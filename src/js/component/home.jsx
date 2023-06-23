@@ -9,7 +9,7 @@ import Footer from "./footer.jsx";
 import Jumbo from "./jumbo.jsx";
 import Navbar from "./navbar.jsx";
 
-//COMPONENTES
+//DISPLAY DE COMPONENTES
 const Home = () => {
   return (
     <div className="container">
