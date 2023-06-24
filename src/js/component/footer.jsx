@@ -5,13 +5,13 @@ function Footer(props) {
     return (
         <footer className="bg-dark text-center text-lg-start mt-5">
             <div className="text-center p-3 text-white">
-            {props.description}
+                {props.description}
             </div>
         </footer>
     )
 }
 
-Footer.PropTypes = {
+Footer.propTypes = {
     description: PropTypes.string,
 }
 

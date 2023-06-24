@@ -12,7 +12,7 @@ import Navbar from "./navbar.jsx";
 //DISPLAY DE COMPONENTES
 const Home = () => {
   return (
-    <div className="container">
+      <div className="container">
       <Navbar brand="Start Bootstrap" />
 
       <Jumbo
@@ -23,28 +23,28 @@ const Home = () => {
 
       <div className="d-flex justify-content-between">
         <Card
-          LinkImg="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
+          Img="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
           title="Card title"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis molestias unde ipsa quo cumque nulla."
           button="Find Out More!"
         />
 
         <Card
-          LinkImg="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
+          Img="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
           title="Card title"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis molestias unde ipsa quo cumque nulla."
           button="Find Out More!"
         />
 
         <Card
-          LinkImg="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
+          Img="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
           title="Card title"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis molestias unde ipsa quo cumque nulla."
           button="Find Out More!"
         />
 
         <Card
-          LinkImg="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
+          Img="https://optimise2.assets-servd.host/maniacal-finch/production/animals/red-kangaroo-02-01.jpg?w=1200&auto=compress%2Cformat&fit=crop&dm=1654795233&s=c3ce4aa2f652473feecf05288c8df627"
           title="Card title"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis molestias unde ipsa quo cumque nulla."
           button="Find Out More!"
@@ -52,7 +52,7 @@ const Home = () => {
       </div>
 
       <Footer
-      description="Copyright © My Website 2023"/>
+        description="Copyright © My Website 2023" />
     </div>
   );
 };
