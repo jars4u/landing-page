@@ -12,7 +12,7 @@ import Navbar from "./navbar.jsx";
 //DISPLAY DE COMPONENTES
 const Home = () => {
   return (
-      <div className="container">
+      <div className="container-fluid">
       <Navbar brand="Start Bootstrap" />
 
       <Jumbo
